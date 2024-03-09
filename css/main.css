@@ -1,0 +1,38 @@
+body {
+
+color: white;
+
+}
+
+
+img {
+
+    filter: grayscale(100%);
+}
+img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+
+.Topo { animation: pulse 3s infinite; }
+@keyframes pulse{ 
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+
+}
+
+
+img {
+
+    border: 30px black;
+    border-radius: 15px;
+
+}
+
+button {
+
+    border-radius: 10px;
+    text-decoration-color: red;
+
+}
